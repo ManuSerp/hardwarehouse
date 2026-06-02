@@ -1,0 +1,100 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "748ef011-b067-4ead-b8e5-f03611ba9126")
+	(paper "A4")
+	(lib_symbols)
+	(text "Motor Driver\n"
+		(exclude_from_sim no)
+		(at 193.04 189.484 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c13184c5-fa22-4d03-bb64-04489dfba336")
+	)
+	(sheet
+		(at 54.61 67.31)
+		(size 30.48 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "73e47ca6-d5e0-4c2b-96eb-ce3ab9ea9693")
+		(property "Sheetname" "oscillo555 freq variable"
+			(at 54.61 66.5984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "oscillo555.kicad_sch"
+			(at 54.61 81.8646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VCC" input
+			(at 85.09 71.12 0)
+			(uuid "10c62e00-5996-447c-9b8f-731e787b9d1b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 85.09 74.93 0)
+			(uuid "4a5d498e-fac6-40ac-bc3d-1156faca8017")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLK" output
+			(at 85.09 78.74 0)
+			(uuid "c82e31a2-8629-4f21-9f34-851a2ec3980a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "motordriver"
+				(path "/748ef011-b067-4ead-b8e5-f03611ba9126"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
