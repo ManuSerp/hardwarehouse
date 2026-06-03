@@ -1746,7 +1746,7 @@
 		(uuid "1181abe7-55aa-4ea2-813d-0f5d24913c0a")
 	)
 	(hierarchical_label "VCC"
-		(shape input)
+		(shape bidirectional)
 		(at 147.32 135.89 270)
 		(effects
 			(font
@@ -1757,7 +1757,7 @@
 		(uuid "79aac242-9489-4bb5-a895-b896af39d46b")
 	)
 	(hierarchical_label "GND"
-		(shape input)
+		(shape bidirectional)
 		(at 144.78 135.89 270)
 		(effects
 			(font

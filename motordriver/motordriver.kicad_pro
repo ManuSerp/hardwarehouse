@@ -648,7 +648,7 @@
         "uuid": "748ef011-b067-4ead-b8e5-f03611ba9126"
       }
     ],
-    "used_designators": "U1-2,J1-2,R1-2,C1-6,RV1-2",
+    "used_designators": "U1-4,J1-4,R1-3,C1-7,RV1-2,SW1,D1-4",
     "variants": []
   },
   "sheets": [
@@ -659,6 +659,10 @@
     [
       "73e47ca6-d5e0-4c2b-96eb-ce3ab9ea9693",
       "oscillo555 freq variable"
+    ],
+    [
+      "b76b8c21-a7c4-4633-a2d6-b70415a655e1",
+      "sequenceregister"
     ]
   ],
   "text_variables": {},
