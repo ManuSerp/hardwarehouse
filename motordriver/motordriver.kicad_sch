@@ -958,7 +958,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 157.48 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -1049,7 +1049,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 157.48 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -1142,7 +1142,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
 			(at 129.54 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -1222,7 +1222,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 157.48 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -1313,7 +1313,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 157.48 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -1406,7 +1406,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
 			(at 97.79 38.1 0)
 			(hide yes)
 			(show_name no)

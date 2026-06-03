@@ -1779,7 +1779,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "125fdf6d-bbbf-4013-afe0-7c3894c303ac")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 125.73 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1799,7 +1799,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 125.73 60.452 90)
 			(hide yes)
 			(show_name no)
@@ -1841,7 +1841,7 @@
 		(instances
 			(project "motordriver"
 				(path "/748ef011-b067-4ead-b8e5-f03611ba9126/73e47ca6-d5e0-4c2b-96eb-ce3ab9ea9693"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
