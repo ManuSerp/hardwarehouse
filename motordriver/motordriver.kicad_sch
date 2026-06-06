@@ -569,12 +569,6 @@
 		(uuid "1e77e735-ec5a-4c57-9ada-3e18e55f8855")
 	)
 	(junction
-		(at 153.67 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "365bbdc7-1ba7-4d22-a4dd-507e473bc5de")
-	)
-	(junction
 		(at 161.29 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -591,12 +585,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6c6274c-1557-4443-8c15-81798f2a7cac")
-	)
-	(junction
-		(at 153.67 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b19d9721-5a48-4072-a34b-f22b7341b891")
 	)
 	(junction
 		(at 161.29 68.58)
@@ -638,13 +626,13 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 68.58) (xy 153.67 72.39)
+			(xy 149.86 68.58) (xy 149.86 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "081ecbc3-e277-42de-b7f2-b519192a4d77")
+		(uuid "0d9e1780-bd42-4964-ac62-57338200f628")
 	)
 	(wire
 		(pts
@@ -665,6 +653,16 @@
 			(type default)
 		)
 		(uuid "1e9df863-35dc-42fd-afae-f1c81bcf6499")
+	)
+	(wire
+		(pts
+			(xy 138.43 72.39) (xy 146.05 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25f70349-72b7-45b1-8932-cef4a6158ad3")
 	)
 	(wire
 		(pts
@@ -708,16 +706,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 72.39) (xy 153.67 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "620c26fd-5f4d-41ca-958c-d9dcd6b61469")
-	)
-	(wire
-		(pts
 			(xy 97.79 71.12) (xy 104.14 71.12)
 		)
 		(stroke
@@ -725,6 +713,16 @@
 			(type default)
 		)
 		(uuid "659fe8a2-d122-452a-8734-b5d15ae4b8ca")
+	)
+	(wire
+		(pts
+			(xy 153.67 68.58) (xy 149.86 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "718c8142-f1eb-4bd8-81b8-4d8146ae8c92")
 	)
 	(wire
 		(pts
@@ -808,16 +806,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 72.39) (xy 138.43 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5721555-ff56-4e68-9313-825872567691")
-	)
-	(wire
-		(pts
 			(xy 95.25 74.93) (xy 104.14 74.93)
 		)
 		(stroke
@@ -828,13 +816,13 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 55.88) (xy 153.67 68.58)
+			(xy 149.86 74.93) (xy 138.43 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bd54c0a8-d32d-497a-a701-7e074b13b550")
+		(uuid "bbdaf424-8cb9-4c66-8bb0-d44cb31005b5")
 	)
 	(wire
 		(pts
@@ -868,6 +856,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 55.88) (xy 153.67 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d47a8f43-21a7-4735-933e-7cc692e3cdd4")
+	)
+	(wire
+		(pts
 			(xy 95.25 74.93) (xy 95.25 99.06)
 		)
 		(stroke
@@ -888,6 +886,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 72.39) (xy 146.05 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e41a60da-397a-4eb3-8393-75c11390bcda")
+	)
+	(wire
+		(pts
 			(xy 95.25 99.06) (xy 161.29 99.06)
 		)
 		(stroke
@@ -895,16 +903,6 @@
 			(type default)
 		)
 		(uuid "ece2695e-c16f-4627-abd9-aa6c1353147a")
-	)
-	(wire
-		(pts
-			(xy 153.67 74.93) (xy 138.43 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3f2ab5e-9ee0-4c6d-9dc0-2884557bbae1")
 	)
 	(label "VCC"
 		(at 97.79 45.72 0)
@@ -1406,7 +1404,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+		(property "Footprint" "Connector:JWT_A3963_1x02_P3.96mm_Vertical"
 			(at 97.79 38.1 0)
 			(hide yes)
 			(show_name no)
