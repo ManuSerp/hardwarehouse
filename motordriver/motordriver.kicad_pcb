@@ -804,7 +804,7 @@
 	(footprint "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 		(layer "F.Cu")
 		(uuid "19525b5f-9b7f-48a6-9d9e-281839df9400")
-		(at 83.25 62.5 180)
+		(at 81.25 62.5)
 		(descr "C, Disc series, Radial, pin pitch=2.50mm, diameter*width=3.0*1.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 2.50mm diameter 3.0mm width 1.6mm Capacitor")
 		(property "Reference" "C5"
@@ -876,16 +876,6 @@
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start 2.015 0.92)
-			(end 0.485 0.92)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3fde0b6b-813a-4fe7-93c1-c130cac255b5")
-		)
-		(fp_line
 			(start 0.485 -0.92)
 			(end 2.015 -0.92)
 			(stroke
@@ -894,6 +884,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "539efa64-53b4-4f27-858e-07ca24e15f5d")
+		)
+		(fp_line
+			(start 2.015 0.92)
+			(end 0.485 0.92)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3fde0b6b-813a-4fe7-93c1-c130cac255b5")
 		)
 		(fp_rect
 			(start -1.05 -1.05)
@@ -929,7 +929,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0 180)
+			(at 0 0)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -939,7 +939,7 @@
 			(uuid "fafd9e49-14ab-4c42-9877-e43a1f89ad0e")
 		)
 		(pad "2" thru_hole circle
-			(at 2.5 0 180)
+			(at 2.5 0)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -6761,14 +6761,6 @@
 		(uuid "0fd8775d-953d-4ae9-8b34-a1dd4082daba")
 	)
 	(segment
-		(start 81.85 61.4)
-		(end 83.705635 61.4)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "/GND")
-		(uuid "129f0899-235c-4060-98e6-d92659f1a1b6")
-	)
-	(segment
 		(start 134.594744 85.02)
 		(end 136.6 87.025256)
 		(width 0.2)
@@ -6799,6 +6791,14 @@
 		(layer "B.Cu")
 		(net "/GND")
 		(uuid "31dbc434-7f2c-4e7b-b725-6c5221d083b5")
+	)
+	(segment
+		(start 86.669365 65.419365)
+		(end 87.725 65.419365)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "/GND")
+		(uuid "35804156-fc30-4b68-b1b2-b44227e4a35b")
 	)
 	(segment
 		(start 89.144365 64)
@@ -6855,6 +6855,14 @@
 		(layer "B.Cu")
 		(net "/GND")
 		(uuid "6d3c1b4c-7759-4587-bc27-f77bda36c801")
+	)
+	(segment
+		(start 83.75 62.5)
+		(end 86.669365 65.419365)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "/GND")
+		(uuid "7e7c2004-35e7-4bb6-9ab4-b38854f3562d")
 	)
 	(segment
 		(start 76.33 80.42)
@@ -6999,22 +7007,6 @@
 		(layer "B.Cu")
 		(net "/GND")
 		(uuid "d854de43-2191-45d3-b3ff-2c40e69da151")
-	)
-	(segment
-		(start 80.75 62.5)
-		(end 81.85 61.4)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "/GND")
-		(uuid "e284f228-27a8-4bf7-bfae-6f700240b53b")
-	)
-	(segment
-		(start 83.705635 61.4)
-		(end 87.725 65.419365)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "/GND")
-		(uuid "ea498bff-a719-4473-954a-afc162d57400")
 	)
 	(segment
 		(start 76.33 77.354365)
@@ -7201,20 +7193,20 @@
 		(uuid "c724e6b0-e771-47c1-9f88-6eac0233b04f")
 	)
 	(segment
-		(start 80.31 70.19)
-		(end 80.31 65.44)
+		(start 81.25 69.25)
+		(end 80.31 70.19)
 		(width 0.2)
 		(layer "B.Cu")
 		(net "Net-(U2-CONT)")
-		(uuid "d31f9b7f-9008-49e0-a022-b60764e1bc13")
+		(uuid "2c3898ba-4012-45af-b8eb-5b7aaf4bf576")
 	)
 	(segment
-		(start 80.31 65.44)
-		(end 83.25 62.5)
+		(start 81.25 62.5)
+		(end 81.25 69.25)
 		(width 0.2)
 		(layer "B.Cu")
 		(net "Net-(U2-CONT)")
-		(uuid "ea3ed0e0-18fa-4098-a814-fd4d7ddd2b09")
+		(uuid "f867b06f-4e40-45f7-88f5-6e1784fbe005")
 	)
 	(segment
 		(start 113.195 66.735)
