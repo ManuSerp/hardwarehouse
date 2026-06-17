@@ -1,0 +1,3 @@
+idee use le 555 to make a ping every 10 min ensuite redresseur puis ensuite compteur: sur le si on connecte un mosfet pour tirgeer la pompe
+
+ensuite on utilise un regulator pour abaisser le 12v au 5v pour le circuit logique
