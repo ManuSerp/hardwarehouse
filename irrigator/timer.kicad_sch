@@ -1779,7 +1779,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "1000uf"
 			(at 168.91 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2025,7 +2025,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "800kK"
 			(at 101.6 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
