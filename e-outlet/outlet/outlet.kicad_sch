@@ -2246,6 +2246,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "GPIO 23"
+		(exclude_from_sim no)
+		(at 233.426 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "089698d5-f9cc-4eee-b0c0-4531d97c4c28")
+	)
 	(junction
 		(at 149.86 104.14)
 		(diameter 0)
@@ -2903,7 +2913,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2991429c-70bb-4baa-b775-cdc5437456aa")
-		(property "Reference" "RELAY"
+		(property "Reference" "RELAY1"
 			(at 115.57 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2977,7 +2987,7 @@
 		(instances
 			(project "outlet"
 				(path "/71f8de07-e637-4bf1-80f9-dabc2b12e988"
-					(reference "RELAY")
+					(reference "RELAY1")
 					(unit 1)
 				)
 			)
@@ -3243,7 +3253,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5adae692-3e98-46d0-bec9-520cd75df41d")
-		(property "Reference" "LPV"
+		(property "Reference" "LPV1"
 			(at 91.44 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3311,7 +3321,7 @@
 		(instances
 			(project "outlet"
 				(path "/71f8de07-e637-4bf1-80f9-dabc2b12e988"
-					(reference "LPV")
+					(reference "LPV1")
 					(unit 1)
 				)
 			)
@@ -3495,7 +3505,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d7f6e95-a85b-4d16-9a5b-b792b57bdf6b")
-		(property "Reference" "BUCK"
+		(property "Reference" "BUCK1"
 			(at 131.445 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3515,7 +3525,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MyLibrary:LM2596_HW411_Carrier"
 			(at 130.81 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -3563,7 +3573,7 @@
 		(instances
 			(project "outlet"
 				(path "/71f8de07-e637-4bf1-80f9-dabc2b12e988"
-					(reference "BUCK")
+					(reference "BUCK1")
 					(unit 1)
 				)
 			)

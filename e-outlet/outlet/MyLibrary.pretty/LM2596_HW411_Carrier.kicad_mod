@@ -1,0 +1,107 @@
+(footprint "LM2596_HW411_Carrier"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 21.5 -10.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "902c4d3c-0d51-4236-9e19-608e57a0a43d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LM2596_HW411_Carrier"
+		(at 21.5 -9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "66255ad3-7b55-4027-ac28-20019c61e2a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30dcd082-aee2-471c-a096-e9fc87003319")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f5ce7b82-a69c-4725-b628-044f69a54b34")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_text user "${REFERENCE}"
+		(at 21.5 -7.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6e8ab0ea-3825-4239-a840-88d77a7ce911")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 -17.5)
+		(size 3 3)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "056f0a65-ea6f-4ce6-a5c1-f65061820973")
+	)
+	(pad "2" thru_hole roundrect
+		(at 40 -17.5)
+		(size 3 3)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "cc7a6784-9905-4d46-ba4d-9b974855af1e")
+	)
+	(pad "3" thru_hole roundrect
+		(at 0 0)
+		(size 3 3)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "62a4315e-9b71-4b5e-ba79-461c1c99bb47")
+	)
+	(pad "4" thru_hole roundrect
+		(at 40 0)
+		(size 3 3)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "dcc47060-e426-4c9a-8d46-75648db1548c")
+	)
+	(embedded_fonts no)
+)
