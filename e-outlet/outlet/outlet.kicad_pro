@@ -146,7 +146,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.4,
+        "min_clearance": 0.5,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -669,7 +669,7 @@
         "uuid": "514b395a-e6b8-433a-bc49-6a9b09917e7b"
       }
     ],
-    "used_designators": "U2,LPV1,J3-5,R2,BUCK1,RELAY1",
+    "used_designators": "U1-3,LPV1,J3-5,R2,BUCK1,RELAY1",
     "variants": []
   },
   "sheets": [
