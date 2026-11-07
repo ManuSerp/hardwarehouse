@@ -1,0 +1,15 @@
+$udp = [System.Net.Sockets.UdpClient]::new()
+$udp.Client.ReceiveTimeout = 5000
+$message = [System.Text.Encoding]::ASCII.GetBytes(
+    "EOUTLET/1 outlet-0123456789ab DOWN"
+)
+$peer = [System.Net.IPEndPoint]::new([System.Net.IPAddress]::Any, 0)
+
+try {
+    [void]$udp.Send($message, $message.Length, "192.0.2.10", 42423)
+    $reply = $udp.Receive([ref]$peer)
+    [System.Text.Encoding]::UTF8.GetString($reply)
+}
+finally {
+    $udp.Dispose()
+}

@@ -1,0 +1,5 @@
+# Copy to esp-config.toml and fill in your local 2.4 GHz WPA2 network.
+# This local file is ignored by Git. Credentials are embedded in the firmware.
+[env]
+WIFI_SSID = "CHANGE_ME"
+WIFI_PASSWORD = "CHANGE_ME"
