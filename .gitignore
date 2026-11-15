@@ -1,1 +1,29 @@
-motordriver/.history/
+# Private recovery material (never publish)
+/.publication-private/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local history
+.history/
+
+# KiCad local state and generated backups
+*.kicad_prl
+*.lck
+*-backups/
+_autosave-*
+*-save.kicad_sch
+*-save.kicad_pcb
+*.bak
+
+# FreeCAD backup/autosave files
+*.FCBak
+*.FCStd[0-9]*
+*.fcstd[0-9]*
+*.FCStd.*
+*.fcstd.*
+
+# Regenerable report
+/motordriver/DRC.rpt
