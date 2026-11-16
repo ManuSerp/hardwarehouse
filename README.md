@@ -1,6 +1,8 @@
 # Hardware projects
+This repo contains Design sources, firmware, and fabrication exports for my electronics projects:
 
-Design sources, firmware, and fabrication exports for the electronics projects in this repository:
+For detailed explanations and context, take a look at [my projects on Hackaday.io](https://hackaday.io/projects/hacker/1907261).
+
 
 - `e-outlet/`: motorized outlet, enclosure, PCB, and ESP32 firmware. See the firmware README for setup and control commands.
 - `irrigator/`: irrigation circuit designs and notes.
@@ -8,11 +10,6 @@ Design sources, firmware, and fabrication exports for the electronics projects i
 
 Open KiCad projects with their project files and the included libraries. The outlet symbol library uses a project-relative path.
 
-## Firmware configuration
-
-Copy `e-outlet/firmware/.cargo/esp-config.example.toml` to `esp-config.toml` in the same directory and configure it locally. The real configuration, build outputs, and local tools are ignored. Compiled firmware can embed Wi-Fi credentials; build your own and do not publish binaries containing private settings.
-
-Device identifiers and the `192.0.2.10` address in the control examples are placeholders. Replace them with your device's actual values.
 
 ## Fabrication exports
 
